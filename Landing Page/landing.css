@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Khula', sans-serif;
+    background-color: #C8B8D6;
+    color: #000;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 3.5px solid #D70383;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.divider {
+    color: #D70383;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.text-primary {
+    color: #000;
+}
+
+.text-secondary {
+    color: #D70383;
+    font-style: italic;
+}
+
+.text-content p {
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.image-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    margin-right: -2.7%;
+}
+
+.image-content img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 20px 10px;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.footer-content ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-content ul li {
+    margin: 0 10px;
+}
+
+.footer-content ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-content ul li a:hover {
+    color: #D70383;
+}
+
+.icons {
+    margin: 0 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.icons img {
+    width: 25px;
+    height: 25px;
+}
